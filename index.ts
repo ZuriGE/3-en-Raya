@@ -137,12 +137,11 @@ let iaCheck1 = (m:string[][]) => {
                 i = checkArrays.length
             }
          }
-         console.log(pcMove)
-         
+        
      }
 
      result = [+!!win, pcMove[0], pcMove[1]]
-     console.log(result)
+
      return result
 }
 
@@ -299,6 +298,10 @@ while (!gameEnd){
 
             if (pcWin){
                 gameEnd = true;
+                console.log(m[0])
+                console.log(m[1])
+                console.log(m[2])
+                console.log(m[3])
                 console.log('Vaya! Parece que has perdido contra el ordenador :`(')
             } 
                         
